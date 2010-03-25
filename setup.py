@@ -19,7 +19,8 @@ long_description="""Howl is a python-based webserver that allows applications to
 packages=find_packages(exclude=['tests'])
 dependencies = ["CherryPy",
 				"simplejson",
-				"appscript"]
+				"appscript",
+				"setuptools-git"]
 
 def main():
 	dist = setup(
